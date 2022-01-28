@@ -6,20 +6,27 @@ namespace Chapter14
     {
         static void Main(string[] args)
         {
-           Student student1 = new Student();
-            student1.Fullname = "Ayeyemi Olugenga";
-            student1.Email = "Aolugenga@gmail.com";
-            student1.Course = "Mathematics";
-            student1.PhoneNumber = "+234703600490";
-            student1.University ="Federal University Of Technology, Akure";
-
-           Student student2 = new Student("Awwal Olasile", "Federal University Of Agriculture, Abeokuta"
-                                                    ,"Computer Science","Computer Science","+2348136794915",
-                                                    "awwal@gmail.com");
-           student1.StudentInfo();
-           Console.WriteLine();
-           student2.StudentInfo();
-           Console.WriteLine(Student.Studentcount);
+            /*Question 7*/
+            Console.WriteLine("Question7");
+            StudentTest.PrintStudent1();
+            Console.WriteLine();
+            StudentTest.PrintStudent2();
+            Console.WriteLine();
+            PhoneTest test1 = new PhoneTest();
+            /*Question 14*/
+            Console.WriteLine("Question14");
+            test1.TestPhone();
+            test1.NokiaPhone();
+            Console.WriteLine();
+            //Question19
+            Console.WriteLine("Question19");
+            CallTest.DisplayCall();
+            //Question 20&21
+            Console.WriteLine("Question 20 & 21");
+            BookTest.LibraryMenu();
+            
+        
+           
 
         }
     }

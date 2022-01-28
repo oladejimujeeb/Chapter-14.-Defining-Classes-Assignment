@@ -16,16 +16,18 @@ namespace Chapter14
 
         public Student()
         {
+            //Question 3
             Studentcount++;
         }
-
-         public Student(string fullname)
+        //question 2
+        public Student(string fullname)
          {
             Fullname = fullname;
             Studentcount++;
 
          }
 
+        //question 2
         public Student(string fullname, string phoneNumber, string email)
         {
             Fullname = fullname;
@@ -51,9 +53,5 @@ namespace Chapter14
         }
     }
 
-    /*Question 6*/
-    public class StudentTest:Student
-    {
-          
-    }
+    
 }
